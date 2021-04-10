@@ -14,6 +14,6 @@ trait DisableRulesForInline
             return [];
         }
 
-        return parent::rulesForUpdate($request, $resource);
+        return false;
     }
 }
